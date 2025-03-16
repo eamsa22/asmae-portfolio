@@ -1,0 +1,206 @@
+.contact-container {
+  width: 90%;
+  max-width: 900px;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  margin-top: -100px;
+  margin-left: 38px;
+}
+.intro {
+  font-size: 0.8rem; 
+  text-align: center;
+  color: #ebe8e8;
+  margin-bottom: 50px;
+}
+
+.intro a {
+  color: #f39c12; 
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.intro a:hover,
+.intro a:focus {
+  text-decoration: underline;
+  color: #278be9dc; 
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: #ebe8e8;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.input-group {
+  flex: 1;
+  min-width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.8rem;
+  color: #ebe8e8;
+  margin-bottom: 5px;
+}
+
+textarea {
+  height: 150px; 
+  resize: vertical; 
+}
+textarea::-webkit-scrollbar {
+  width: 8px; 
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #a2adae, #858f93); 
+  border-radius: 4px; 
+}
+
+
+textarea::-webkit-scrollbar-track {
+  background: #cccccc; 
+  border-radius: 4px;
+}
+
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  background: #ebe8e8;
+  border: 0;
+  border-radius: 5px;
+  color: rgb(61, 59, 59);
+  font-size: 0.9rem;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 0.5px solid rgb(238, 84, 84);
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    background-color: #f39c12;
+    color: #ebe8e8;
+    border: 2px solid #f39c12;
+}
+button:hover {
+  background-color: #f37b0b;
+  color: white;
+  border-color: #f37b0b;
+
+}
+.success-message {
+  color: lightgreen;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.error-message {
+  color: lightcoral;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.error-message {
+  color: rgb(238, 84, 84);
+  font-size: 0.7rem;
+  margin-top: 3px; 
+  margin-bottom: 0; 
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 0.5px solid rgb(238, 84, 84);;
+}
+
+.notification-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.notification-box i {
+  font-size: 1.2rem;
+}
+
+.success {
+  background: #28a745;
+}
+
+.error {
+  background: #dc3545;
+}
+
+
+.loading-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #f39c12;;
+  margin-bottom: 15px;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #89590c;;
+  border-top: 3px solid #f39c12;;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+

@@ -1,0 +1,36 @@
+<mat-toolbar>
+    <div class="left-section">
+        <img src="images/logo.png" alt="Logo" class="logo"> 
+        <span class="title">Asmae's Portfolio</span> <!-- Titre à côté de l'icône -->
+    </div>
+    <div class="toolbar-links">
+        <button mat-button [routerLink]="'/'">{{ 'toolbar.home' | translate }}</button>
+        <button mat-button [routerLink]="'/about'">{{ 'toolbar.about' | translate }}</button>
+        <button mat-button [routerLink]="'/projects'">{{ 'toolbar.projects' | translate }}</button>
+        <button mat-button [routerLink]="'/contact'">{{ 'toolbar.contact' | translate }}</button>
+    </div>
+</mat-toolbar>
+
+<main>
+    <router-outlet></router-outlet>
+</main>
+
+<div class="language-buttons">
+    <span class="button-lang" (click)="switchLanguage('fr')">FR</span>
+    <span>|</span>
+    <span class="button-lang" (click)="switchLanguage('en')">EN</span>
+</div>
+
+<footer class="footer">
+    <div class="footer-content">
+        <span class="footer-name">Copyright © {{ currentYear }} Asmae BOUAZZA </span>
+        <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/asmae-bouazza-43837a261/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/eamsa22" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </div>
+</footer>

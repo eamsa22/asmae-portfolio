@@ -1,0 +1,19 @@
+<div class="home-container">  
+    <h1 class="home-title">{{ 'home.title' | translate }}</h1>  
+
+    <div class="home-content">
+        <div class="home-intro">
+            <p [innerHTML]="'home.intro' | translate"></p>
+            <span routerLink="/about" class="about-link"> {{'home.goAbout' | translate}}</span>
+        </div>
+
+        <div class="home-photo">
+            <img src="images/asmae-photo.png" alt="Your Name">
+        </div>
+    </div>
+
+    <div class="home-buttons">
+        <button class="btn contact-btn" (click)="navigateTo('/contact')">Let's get in touch</button>
+        <button class="btn explore-btn" (click)="navigateTo('/projects')">Explore my work</button>
+    </div>
+</div>

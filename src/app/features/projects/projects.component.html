@@ -1,0 +1,15 @@
+<div class="projects-container">
+    <h1 class="projects-title">{{ 'projects.title' | translate }}</h1>
+    <div class="projects-list">
+        <div *ngFor="let project of projects" class="project-card">
+            <img [src]="project.image" alt="{{ project.title }}" class="project-image">
+            <div class="project-content">
+                <h2 class="project-title">{{ project.title | translate }}</h2>
+                <p class="project-description">{{ project.description | translate }}</p>
+                <a [href]="project.link" target="_blank" class="project-link">
+                    {{ 'projects.viewMore' | translate }}
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

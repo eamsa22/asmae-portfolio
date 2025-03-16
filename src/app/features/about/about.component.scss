@@ -1,0 +1,120 @@
+.about-container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.about-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ebe8e8;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-card {
+  width: 100%;
+  max-width: 600px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(243, 156, 18, 0.5);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(243, 156, 18, 0.5);
+}
+
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(243, 156, 18, 0.8);
+  border-color: rgba(243, 156, 18, 0.8);
+}
+
+.about-card.expanded {
+  max-height: 100%;
+  opacity: 1;
+}
+
+.about-card h2 {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  color: #ebe8e8;
+}
+
+.about-card p {
+  font-size: 1rem;
+  color: #ebe8e8;
+  line-height: 1.6;
+  margin-top: 10px;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.about-card.expanded p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-icon {
+  font-size: 1.5rem;
+  color: #f39c12;
+}
+
+.tech-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.tech-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  font-size: 1rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tech-image:hover {
+  transform: scale(1.1);
+}
+
+.tech-image img {
+  width: 20px;
+  height: 20px;
+}
+.tech-image span {
+  font-size: 12px;
+}
+
+
+@keyframes shine {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

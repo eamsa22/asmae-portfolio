@@ -1,0 +1,102 @@
+/* Conteneur principal */
+.home-container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-top: -100px;
+}
+
+/* Titre stylé */
+.home-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ebe8e8;
+    text-align: center;
+    margin-bottom: 50px;
+    background: #ebe8e8;
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 10s infinite linear;
+}
+
+/* Section intro + photo */
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+/* Intro à gauche */
+.home-intro {
+    width: 50%;
+    font-size: 1rem;
+    color: #ccc;
+}
+.home-intro p, .home-intro span {
+    display: inline;
+}
+
+.about-link {
+    color: #f39c12;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.about-link:hover {
+    text-decoration: underline;
+    color: #e67e22;
+    cursor: pointer;
+
+}
+
+/* Photo à droite */
+.home-photo {
+    width: 40%;
+}
+.home-photo img {
+    width: 100%;
+    border-radius: 50%; /* Rend l'image circulaire */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+/* Boutons */
+.home-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Bouton "Let's get in touch" */
+.contact-btn {
+    background-color: #f39c12;
+    color: white;
+}
+.contact-btn:hover {
+    background-color: #e67e22;
+}
+
+/* Bouton "Explore my work" */
+.explore-btn {
+    background-color: transparent;
+    color: #f39c12;
+    border: 2px solid #f39c12;
+}
+.explore-btn:hover {
+    background-color: #f39c12;
+    color: white;
+}

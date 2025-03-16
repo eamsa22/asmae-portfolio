@@ -1,0 +1,111 @@
+.title {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f39c12;
+    margin-right: 25px;
+}
+mat-toolbar .logo {
+    width: 40px; 
+    height: 35px; 
+    margin-right: 5px;
+}
+mat-toolbar .left-section {
+    display: flex;
+    align-items: center;
+}
+
+mat-toolbar {
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 10px 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05);
+}
+
+mat-toolbar button {
+    background: none;
+    color: #ddd;
+    font-weight: 500;
+    padding: 8px 16px;
+    transition: color 0.3s ease;
+    border-radius: 10px;
+}
+
+mat-toolbar button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 80px; 
+}
+
+/* Boutons de langue */
+.language-buttons {
+    position: fixed;
+    top: 20px;
+    right: 15px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.button-lang {
+    background-color: transparent;
+    color: #ccc;
+    font-size: 13px;
+    padding: 0 8px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.button-lang:hover {
+    text-decoration: underline;
+    color: white;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: auto;  
+    padding: 20px 0;  
+  }
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
+  .footer-name {
+    font-size: 12px;
+    margin-bottom: 10px; 
+  }
+  .footer-icons a {
+    margin: 0 8px;
+    font-size: 20px;
+    color: white;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .footer-icons a:hover {
+    transform: scale(1.1);
+    color: #278be9dc; 
+  }

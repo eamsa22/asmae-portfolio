@@ -1,0 +1,24 @@
+<div class="about-container">
+    <h1 class="about-title" [innerHTML]="'about.title' | translate"></h1>
+  
+    <div class="about-content">
+        <div *ngFor="let section of sections; let i = index" 
+             class="about-card" 
+             [class.expanded]="expandedIndex === i" 
+             (click)="toggleCard(i)">
+            <h2>
+                <span class="about-icon">{{ section.icon }}</span> 
+                <span class="about-title-text">{{ section.title | translate }}</span>
+            </h2>
+            <p *ngIf="expandedIndex === i">{{ section.content | translate }}</p>
+  
+            <div *ngIf="expandedIndex === i && i === 3" class="tech-images">
+                <div *ngFor="let tech of techIcons" class="tech-image">
+                    <img [src]="tech.img" [alt]="tech.alt" />
+                    <span>{{ tech.name }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  
