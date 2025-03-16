@@ -1,0 +1,72 @@
+{
+  "toolbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+
+  "home": {
+    "title": "Bienvenue sur mon portfolio !",
+    "intro": "Bonjour ! Je suis <strong>Asmae BOUAZZA</strong>, une développeuse spécialisée en <strong>ingénierie logicielle et développement Full Stack</strong>. Passionnée par la création de solutions robustes et évolutives, j'ai une expérience pratique dans la conception et le développement d'applications web et mobiles en utilisant des technologies modernes. J'aime relever des défis complexes et apprendre continuellement de nouvelles technologies pour affiner mon expertise.<br>Curieux(se) d'en savoir plus sur mon parcours et mon expérience ? ",
+    "goAbout": "Découvrez-en plus sur moi ici !"
+  },
+  "about": {
+    "title": "Je suis Asmae BOUAZZA, une Développeuse Full-Stack & Ingénieure Logiciel passionnée.<br>Curieux(se) d'en savoir plus ? Ouvrez une carte !",
+    "subtitle_education": "Mon parcours académique",
+    "description1": "Mon aventure dans le monde de la tech a commencé avec une Licence en Informatique, où j’ai découvert différents paradigmes de programmation, chacun m’ouvrant de nouvelles façons de penser et de créer. C’est là que ma passion pour le code a vraiment pris son envol : ce n’était pas juste écrire des lignes de code, mais résoudre des problèmes réels de manière ingénieuse. Curieuse d’aller encore plus loin, j’ai poursuivi un Master en Ingénierie du Logiciel à l’Université de Toulouse. J’y ai renforcé mes compétences en architecture logicielle, en vérification des systèmes et en méthodologies agiles, tout en travaillant sur des projets concrets aux côtés de professionnels du secteur. Ce mélange entre théorie et pratique a façonné ma vision du développement : concevoir des solutions logicielles performantes, évolutives et impactantes.",
+    "subtitle_approach": " Mon approche du développement",
+    "approach": "Pour moi, développer, c’est bien plus que coder, c’est transformer une idée en une solution efficace et pérenne. Avant de plonger dans l’implémentation, j’aime prendre le temps de bien comprendre le besoin, de structurer ma réflexion et de concevoir une architecture qui soit à la fois claire et évolutive. Quand j’écris du code, je privilégie toujours la lisibilité et la maintenabilité, en appliquant des bonnes pratiques comme le clean code et les principes SOLID. J’aime aussi optimiser les performances et assurer la fiabilité de mes applications en testant et en affinant chaque fonctionnalité. Pour moi, un bon développement, c’est un équilibre entre rigueur technique et créativité, et c’est ce qui me passionne dans ce métier !",
+    "subtitle_experience": "Expérience professionnelle & Projets",
+    "experience": "Lors de mon apprentissage chez Air France, j’ai eu la chance de plonger au cœur des opérations aériennes, un univers où chaque ligne de code doit répondre à des exigences de performance et de fiabilité. J’ai travaillé sur des applications critiques, contribuant à optimiser la gestion des vols et des ressources aériennes. Entre interfaces dynamiques avec Angular et architectures backend solides en Spring, j’ai appris à développer des solutions scalables et résilientes, tout en jonglant avec des contraintes métiers exigeantes. Mais mon aventure ne s’arrête pas là. Pendant mes études, j’ai exploré différents horizons à travers des projets variés : applications Android, plateformes web interactives, solutions backend performantes… autant de défis qui m’ont permis d’affiner mes compétences et de me forger une approche polyvalente du développement. Ces projets sont d’ailleurs à découvrir dans la section Projets de mon portfolio ! Ce que je retiens de ces expériences ? L'adrénaline des challenges techniques, la satisfaction de voir un projet prendre vie et le plaisir d’innover. Développer, c’est plus qu’écrire du code, c’est imaginer, créer et avoir un impact réel.",
+   "subtitle_techno": "Technologies & Outils - Mon Stack Complet",
+   "techno": "J'ai une expérience pratique sur toute la stack de développement, de l'architecture backend aux interfaces frontend et aux applications mobiles. Côté backend, je développe des API évolutives et performantes en utilisant Java (Spring Boot, Jersey) et C# (.NET Core), en intégrant des solutions d'authentification sécurisées comme Spring Security. \n\nPour le frontend, je conçois des applications web modernes et interactives avec Angular et Vue.js, en garantissant une expérience utilisateur fluide grâce à des frameworks comme CSS. \n\nCôté mobile, j'utilise Flutter pour créer des applications multiplateformes réactives et visuellement attrayantes. \n\nConcernant la gestion des données, je travaille avec des bases de données SQL comme PostgreSQL et MySQL, ainsi que des solutions NoSQL comme MongoDB et Firebase Firestore, selon les besoins des projets. J'utilise également des ORM tels que Hibernate et Entity Framework pour simplifier les interactions avec les bases de données. \n\nToujours curieux des nouvelles technologies et des tendances du secteur, je m'efforce d'améliorer continuellement mes compétences afin de concevoir des solutions efficaces, évolutives et innovantes.",
+ "subtitle_beyond_code": "Au-delà du code",
+    "beyond_code": "Quand je ne code pas, ma soif d'apprendre ne s'arrête pas aux langages de programmation ! J’ai toujours été passionnée par les langues humaines, car, tout comme le code, elles sont un moyen puissant de communiquer, comprendre et créer des liens entre les gens. Que ce soit en explorant de nouvelles technologies, en lisant sur l’architecture logicielle, en expérimentant des projets personnels ou en apprenant une nouvelle langue, chaque nouvelle compétence est pour moi une opportunité de m’élargir l’esprit, de relever de nouveaux défis et de nourrir ma curiosité sans fin.",
+    "closing": "💡 Chaque jour est une opportunité de créer quelque chose d'exceptionnel ! Connectons-nous et construisons ensemble !"
+  },
+ "projects": {
+    "title": "Découvrez mon travail à travers mes projets personnels disponibles sur GitHub !",
+    "viewMore" :"Voir plus",
+    "project1": {
+      "title": "Recipes API - Une API REST pour découvrir des recettes",
+      "description": "L'application Recipes API est une API REST qui permet d’accéder à un large éventail de recettes de cuisine, cocktails et menus complets. Elle expose plusieurs endpoints permettant aux utilisateurs de récupérer des recettes selon différents critères de recherche. L’API s’appuie sur des services externes tels que Edamam et CocktailDB pour obtenir les données nécessaires à la génération des recettes. Grâce à cette intégration, les utilisateurs peuvent rechercher des plats selon des ingrédients spécifiques ou encore des préférences culinaires. L'application a été développée avec le framework Jersey, garantissant une architecture modulaire, évolutive et maintenable. Pour assurer une meilleure organisation du code et une extensibilité accrue, plusieurs design patterns ont été intégrés, notamment le pattern Stratégie et le patron de méthode. L’API offre également une flexibilité maximale en permettant de récupérer les résultats dans plusieurs formats, notamment JSON et XML, s’adaptant ainsi aux besoins des développeurs et des différentes applications clientes. Afin de faciliter l’intégration et l’utilisation de l’API, une documentation Swagger détaillée a été mise en place. Le code source de l’application est disponible sur son dépôt GitHub. Vous y trouverez également un fichier README détaillé, qui explique comment configurer l’environnement, exécuter l’API et tester les endpoints avec différents critères."
+    },
+    "project2": {
+      "title": "Application de Réservation et Avis de Restaurants",
+      "description": "Cette application permet aux utilisateurs de découvrir des restaurants récupérés directement depuis l'API Google Places. Ils peuvent effectuer une réservation en fournissant plusieurs détails tels que la date, le nom, le nombre de personnes, avec des contrôles de saisie pour garantir la cohérence des informations. Les utilisateurs peuvent consulter leurs réservations grâce à une référence unique. La gestion des réservations et des avis est sécurisée via Firebase. De plus, les utilisateurs peuvent laisser des avis avec des photos prises directement dans l'application, et les retoucher avec des filtres et des stickers. Développé en Java, ce projet est disponible sur GitHub, où vous pouvez consulter le code source et obtenir plus de détails."
+    },
+    "project3": {
+    "title": "Jeu de Devinette de Mots",
+    "description": "Il s'agit d'un jeu de devinette de mots construit avec Vue.js, où les joueurs doivent deviner un mot de 5 lettres en 6 tentatives. Le jeu inclut un minuteur de 10 minutes et valide chaque mot via une API pour s'assurer qu'il existe. Les lettres correctes sont mises en surbrillance en vert, tandis que les lettres mal placées (présentes dans le mot mais dans une position incorrecte) sont mises en surbrillance en rouge. Le mot à deviner est également enregistré dans la console après chaque partie. L'application suit une architecture basée sur des composants avec Vue.js, ce qui garantit la modularité et la réutilisabilité du code. De plus, des tests UI avec Cypress ont été mis en place pour garantir que l'application fonctionne correctement. Le code source est disponible sur GitHub, où un README détaillé explique comment configurer et exécuter le projet. L'application inclut également une page de statistiques pour suivre les résultats des parties précédentes et la performance. Pour plus d'informations, consultez le README sur GitHub pour obtenir des instructions sur l'exécution du projet et la consultation de la page de statistiques."
+    },
+    "project4": {
+      "title": "Système d'exploitation simplifié",
+      "description": "ScratchOS est un système d'exploitation minimaliste développé en language C et conçu à des fins pédagogiques. Le projet simule des opérations de base du shell telles que la gestion des utilisateurs et la gestion des permissions de fichiers. Bien qu'il ne supporte pas encore la création ou la suppression de fichiers, le système peut facilement être étendu pour inclure ces fonctionnalités. Ce projet a été développé dans le cadre d'un cours universitaire. Le code source est disponible sur GitHub, avec des instructions d'installation pour mettre le système en fonctionnement."
+    },
+    "project5": {
+      "title": "Portfolio Personnel",
+      "description": "Le Portfolio Personnel est une application web développée en Angular qui présente mes projets, mes compétences, ainsi que mon parcours professionnel. Il comprend plusieurs sections, dont une dédiée à mes projets avec des descriptions détaillées et des liens vers les démos ou GitHub, une section 'À propos de moi' pour partager mon expérience, ainsi qu'une section de contact permettant aux visiteurs de me joindre facilement. Si vous souhaitez consulter le code source et obtenir plus de détails, il est disponible sur GitHub."
+    }
+
+  }
+,
+  "contact":{
+    "form":{
+      "title" : "Contactez moi",
+      "intro": "Une idée, un projet ou juste envie d’échanger ? Discutons-en !<br> Remplissez le formulaire ci-dessous ou connectons-nous sur <a href='https://www.linkedin.com/in/asmae-bouazza-43837a261/' target='_blank'>LinkedIn</a>. À très bientôt !",      
+      "name" : "Nom",
+      "email": "Email",
+      "phone" : "Numéro de téléphone",
+      "message" : "Message",
+      "send" : "Envoyer le message",
+      "errors":{
+        "name" : "Le champs nom est requis",
+        "email": "Veuillez saisir un email valide",
+        "phone" : "Veuillez saisir un numéro de téléphone valide",
+        "message" : "Le champs message est requis"
+    }
+    }
+    
+  }
+}

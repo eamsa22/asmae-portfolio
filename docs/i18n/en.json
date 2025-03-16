@@ -1,0 +1,71 @@
+{
+  "toolbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "home": {
+    "title": "Welcome to my portfolio!",
+    "goAbout": "Get to know me better here!",
+    "intro": "Hello! I'm <strong>Asmae BOUAZZA</strong>, a developer specialized in <strong>Software Engineering and Full Stack Development</strong>. Passionate about building robust and scalable solutions, I have practical experience in designing and developing web and mobile applications using modern technologies. I love tackling complex problems and constantly learning new technologies to refine my expertise.<br>Curious to learn more about my journey and experience? "
+    },
+  "about": {
+    "title": "I'm Asmae BOUAZZA, a passionate Full-Stack Developer & Software Engineer. <br>Curious to know more? Open a card!",
+    "subtitle_education": "My Academic Journey",
+    "description1": "My journey into tech started with a Bachelor's in Computer Science, where I got to dive into different programming paradigms, each unlocking new ways to think and create. That’s where my passion for coding really took off—it wasn’t just about writing lines of code but about solving real challenges in creative ways. Eager to push my skills further, I pursued a Master’s in Software Engineering at University of Toulouse. There, I honed my expertise in software architecture, system verification, and agile development, all while working on real-world projects alongside industry professionals. This mix of theory and hands-on experience shaped my approach to building scalable, efficient, and impactful software solutions.",
+    "subtitle_approach": "My Approach to Development",
+    "approach": "For me, development is more than just writing code—it’s about turning an idea into an efficient and sustainable solution. Before jumping into implementation, I take the time to deeply understand the requirements, structure my thinking, and design an architecture that is both clear and scalable. When coding, I always prioritize readability and maintainability by following best practices like clean code and SOLID principles. I also focus on optimizing performance and ensuring reliability by testing and refining every feature. To me, great development is a balance between technical precision and creativity—and that’s what makes this field so exciting!",
+    "subtitle_experience": "Professional Experience & Projects",
+    "experience": "During my apprenticeship at Air France, I had the opportunity to dive into the world of airline operations, where every line of code had to meet high standards of performance and reliability. I worked on mission-critical applications, helping to optimize flight and resource management. From dynamic user interfaces with Angular to robust backend architectures using Spring, I developed scalable and resilient solutions while navigating complex business requirements. But my journey didn’t stop there. Throughout my studies, I explored various fields through diverse projects: Android applications, interactive web platforms, high-performance backend solutions—each one sharpening my skills and shaping my versatile approach to development. You can check them out in the Projects section of my portfolio! What did I take away from these experiences? The thrill of tackling technical challenges, the satisfaction of bringing a project to life, and the excitement of innovation. Development isn’t just about writing code—it’s about imagining, creating, and making a real impact.",
+    "subtitle_techno": "Technologies & Tools - My Full Tech Stack",
+    "techno": "I have hands-on experience across the entire software development stack, from backend systems to frontend interfaces and mobile apps. On the backend, I develop scalable and high-performance APIs using Java (Spring Boot, Jersey) and C# (.NET Core), implementing secure authentication with Spring Security. For the frontend, I build modern and interactive web applications with Angular and Vue.js, ensuring a smooth user experience with frameworks like CSS. On the mobile side, I use Flutter to create cross-platform applications that are both responsive and visually engaging. When working with data, I handle SQL databases like PostgreSQL and MySQL, as well as NoSQL solutions like MongoDB and Firebase Firestore, depending on project requirements. I also simplify database interactions using Hibernate and Entity Framework. I’m always eager to explore new technologies and stay updated with industry trends, allowing me to build efficient, scalable, and innovative solutions.",
+    "subtitle_beyond_code": "Beyond Code",
+    "beyond_code": "When I’m not coding, I’m still driven by a passion for learning—but not just programming languages! I’ve always been fascinated by human languages as well. Just like coding, they are a powerful way to connect, understand, and build bridges between people. Whether I’m exploring new technologies, reading about software architecture, experimenting with side projects, or learning a new language, I see every skill as a new tool to broaden my horizons, challenge my thinking, and stay endlessly curious.",
+    "closing": "💡 Every day is a chance to build something great. Let’s connect and create together!"
+  },
+  "projects": {
+    "title": "Explore My Work Through My Personal Projects Available on GitHub!",
+    "viewMore" :"View more",
+    "project1": {
+      "title": "Recipes API - A REST API to discover recipes",
+      "description": "The Recipes API is a REST API that provides access to a wide range of cooking recipes, cocktails, and complete menus. It exposes multiple endpoints that allow users to retrieve recipes based on various search criteria. The API leverages external services such as Edamam and CocktailDB to fetch the necessary data for generating recipes. Through this integration, users can search for dishes based on specific ingredients or culinary preferences. The application was developed using the Jersey framework, ensuring a modular, scalable, and maintainable architecture. To enhance code organization and extensibility, several design patterns have been implemented, including the Strategy Pattern and the Template Method Pattern. The API also offers maximum flexibility by allowing results to be retrieved in multiple formats, including JSON and XML, catering to developers' needs and different client applications. To facilitate integration and usage, a detailed Swagger documentation has been provided. The source code of the application is available on its GitHub repository, where you will also find a comprehensive README file explaining how to set up the environment, run the API, and test endpoints with different criteria."
+    },
+    "project2": {
+      "title": "Restaurant Reservation & Review App",
+      "description": "This app allows users to discover restaurants retrieved directly from the Google Places API. They can make a reservation by providing multiple details such as date, name, and number of people, with input validation to ensure data consistency. Users can also view their reservations using a unique reference. Reservation and review management is securely handled via Firebase. Additionally, users can leave reviews with photos taken directly within the app, which can be edited with filters and stickers. Developed in Java, this project is available on GitHub, where you can view the source code and find more details."
+    },
+   "project3": {
+      "title": "Word Guessing Game",
+      "description": "This is a word guessing game built with Vue.js, where players try to guess a 5-letter word within 6 attempts. The game includes a 10-minute timer and validates each word against an API to ensure it exists. Correct letters are highlighted in green, while misplaced letters (that are present in the word but in the wrong position) are highlighted in red. The word to be guessed is also logged in the console after each game. The app follows a component-based architecture using Vue.js, which ensures modularity and reusability of code. Additionally, Cypress UI tests have been implemented to ensure the app functions correctly. The source code is available on GitHub, where a detailed README explains how to set up and run the project. The app also includes a statistics page to track previous game results and performance. For more information, check the README on GitHub for instructions on running the project and viewing the stats page."
+    },
+    "project4": {
+      "title": "Simplified Operating System",
+      "description": "ScratchOS is a minimalist operating system developped in C language and designed for educational purposes. The project simulates basic shell operations such as user management and file permission handling. While it does not yet support full file creation or removal functionalities, the system can easily be extended to include these features. This project was developed as part of a university course. The source code is available on GitHub, along with installation instructions to get the system up and running."
+    },
+    "project5": {
+      "title": "Personal Portfolio",
+      "description": "The Personal Portfolio is a web application developed in Angular that showcases my projects, skills, and professional background. It includes several sections, such as one dedicated to my projects with detailed descriptions and links to demos or GitHub, an 'About Me' section to share my experience, and a contact section for visitors to easily reach out to me. If you would like to check out the source code and learn more details, it is available on GitHub."
+    }
+
+  },
+
+  "contact":{
+    "form":{
+      "title" :"Contact me",
+      "intro": "Got an idea, a project, or just want to chat? Let’s talk! <br>Fill out the form below or connect with me on <a href='https://www.linkedin.com/in/asmae-bouazza-43837a261/' target='_blank'> LinkedIn </a>. Looking forward to it!",
+      "email": "Email",
+      "name": "Name",
+      "phone" : "Phone number",
+      "message" : "Message",
+      "send" : "Send message",
+      "errors":{
+        "name" : "The field Name is required",
+        "email": "Please enter a valid email adress",
+        "phone" : "Please enter a valid phone number",
+        "message" : "The field message is required"
+      }
+    }
+  }
+}
