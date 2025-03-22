@@ -26,7 +26,7 @@ export class ProjectsComponent {
       title: "projects.project2.title",
       description: "projects.project2.description",
       image: 'images/projects/dineEasy.png',
-      link: 'https://github.com/eamsa22/'
+      link: 'https://github.com/eamsa22/dine-easy-app'
     },
     {
       title: "projects.project3.title",

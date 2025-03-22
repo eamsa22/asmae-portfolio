@@ -8,7 +8,7 @@
         <div class="form-group">
             <div class="input-group">
                 <label for="name">{{ 'contact.form.name' | translate }}</label>
-                <input type="text" id="name" formControlName="name" required />
+                <input type="text" id="name" formControlName="name" required placeholder="asmae"/>
                 <p *ngIf="contactForm.controls['name'].invalid && contactForm.controls['name'].touched" class="error-message">
                     {{ 'contact.form.errors.name' | translate }}
                 </p>
@@ -16,7 +16,7 @@
 
             <div class="input-group">
                 <label for="phone">{{ 'contact.form.phone' | translate }}</label>
-                <input type="tel" id="phone" formControlName="phone" required />
+                <input type="tel" id="phone" formControlName="phone" required  placeholder="+33 600000000" />
                 <p *ngIf="contactForm.controls['phone'].invalid && contactForm.controls['phone'].touched" class="error-message">
                     {{ 'contact.form.errors.phone' | translate }}
                 </p>
@@ -24,7 +24,7 @@
         </div>
         <div class="input-group">
             <label for="email">{{ 'contact.form.email' | translate }}</label>
-            <input type="email" id="email" formControlName="email" required />
+            <input type="email" id="email" formControlName="email" required placeholder="name@gmail.com" />
             <p *ngIf="contactForm.controls['email'].invalid && contactForm.controls['email'].touched" class="error-message">
                 {{ 'contact.form.errors.email' | translate }}
             </p>    

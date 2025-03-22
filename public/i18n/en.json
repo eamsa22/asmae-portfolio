@@ -9,8 +9,10 @@
   "home": {
     "title": "Welcome to my portfolio!",
     "goAbout": "Get to know me better here!",
-    "intro": "Hello! I'm <strong>Asmae BOUAZZA</strong>, a developer specialized in <strong>Software Engineering and Full Stack Development</strong>. Passionate about building robust and scalable solutions, I have practical experience in designing and developing web and mobile applications using modern technologies. I love tackling complex problems and constantly learning new technologies to refine my expertise.<br>Curious to learn more about my journey and experience? "
-    },
+    "intro": "Hello! I'm <strong>Asmae BOUAZZA</strong>, a developer specialized in <strong>Software Engineering and Full Stack Development</strong>. Passionate about building robust and scalable solutions, I have practical experience in designing and developing web and mobile applications using modern technologies. I love tackling complex problems and constantly learning new technologies to refine my expertise.<br>Curious to learn more about my journey and experience? ",
+    "exploreWork":"Explore my work" ,
+    "contactMe": "Let's get in touch"
+  },
   "about": {
     "title": "I'm Asmae BOUAZZA, a passionate Full-Stack Developer & Software Engineer. <br>Curious to know more? Open a card!",
     "subtitle_education": "My Academic Journey",
@@ -34,7 +36,7 @@
     },
     "project2": {
       "title": "Restaurant Reservation & Review App",
-      "description": "This app allows users to discover restaurants retrieved directly from the Google Places API. They can make a reservation by providing multiple details such as date, name, and number of people, with input validation to ensure data consistency. Users can also view their reservations using a unique reference. Reservation and review management is securely handled via Firebase. Additionally, users can leave reviews with photos taken directly within the app, which can be edited with filters and stickers. Developed in Java, this project is available on GitHub, where you can view the source code and find more details."
+      "description": "This app allows users to discover restaurants retrieved directly from the Google Places API. They can make a reservation by providing multiple details such as date, name, and number of people, with input validation to ensure data consistency. Users can also view their reservations using a unique reference. Reservation and review management is securely handled via Firebase. Additionally, users can leave reviews with photos taken directly within the app, which can be edited with filters. Developed in Java, this project is available on GitHub, where you can view the source code and find more details."
     },
    "project3": {
       "title": "Word Guessing Game",
