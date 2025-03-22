@@ -14,7 +14,7 @@ export class ProjectsComponent {
       title: "projects.project5.title",
       description: "projects.project5.description",
       image: 'images/projects/portfolio.png',
-      link: 'https://github.com/eamsa22/recipes-api'
+      link: 'https://github.com/eamsa22/asmae-portfolio'
     },
     {
       title: "projects.project1.title",
